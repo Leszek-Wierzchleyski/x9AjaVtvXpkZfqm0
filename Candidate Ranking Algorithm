@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 
 
-    """Tokenise and embed"""
+    """Tokenise, embed, and compute mean vectors"""
     
     txt = []
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     MEANS = embeds.mean(dim=1)
 
 
-    """Calculate cosine similarities and find mean vectors."""
+    """Calculate cosine similarities."""
 
     sim = []
 
